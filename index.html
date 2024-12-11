@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-LAB4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/lab4.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="list">
+                <li class="list-item"><a class="list-link" href="#">Лаба №1</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №2</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №3</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №4</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №5</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №6</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №7</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №8</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="task-box">
+                <label for="list_name">Имя</label>
+                <input id="list_name" class="input" type="text">
+                <label for="list_age">Возраст</label>
+                <input id="list_age" class="input" type="number">
+                <button id="addUser" class="button">Добавить</button>
+                <button id="reset1" class="button">Отчистить</button>
+                <p id="task1_result">Результат:</p>
+            </div>
+            <div class="task-box">
+                <label for="cat_name">Имя</label>
+                <input id="cat_name" class="input" type="text">
+                <label for="cat_color">Цвет</label>
+                <input id="cat_color" class="input" type="text">
+                <label for="cat_gender">Пол</label>
+                <input id="cat_gender" class="input" type="text">
+                <label for="cat_age">Возраст</label>
+                <input id="cat_age" class="input" type="number">
+                <button id="addCat" class="button">Добавить</button>
+                <button id="reset2" class="button">Отчистить</button>
+                <table class="table">
+                    <thead>
+                        <th>Имя</th>
+                        <th>Цвет</th>
+                        <th>Пол</th>
+                        <th>Возраст</th>
+                    </thead>
+                    <tbody id="task2_tbody"></tbody>
+                </table>
+            </div>
+            <div class="task-box">
+                <label for="prod_digits">Цифры произведения</label>
+                <input id="prod_digits" class="input" type="text">
+                <button id="prod" class="button">Произведение</button>
+                <p id="task3_result">Результат:</p>
+            </div>
+            <div class="task-box">
+                <label for="sum_digits">Сумма предыдущих</label>
+                <input id="sum_digits" class="input" type="text">
+                <button id="sum" class="button">Сумма</button>
+                <p id="task4_result">Результат:</p>
+            </div>
+            <div class="task-box">
+                <label for="start">Начало диапазона</label>
+                <input id="start" class="input" type="text">
+                <label for="end">Конец диапазона</label>
+                <input id="end" class="input" type="text">
+                <label for="step">Шаг диапазона*</label>
+                <input id="step" class="input" type="text">
+                <button id="range" class="button">Произведение</button>
+                <p id="task5_result">Результат:</p>
+            </div>
+            <div class="task-box">
+                <label for="filter_name">Имя:</label>
+                <input type="text" id="filter_name" class="input" >
+                <label for="filter_age">Возраст:</label>
+                <input type="number" id="filter_age" class="input" >
+                <label for="filter_city">Город:</label>
+                <input type="text" id="filter_city" class="input" >
+                <button id="filterBtn" class="button">Применить фильтр</button>
+                <p id="task6_result">Результат:</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
