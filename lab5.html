@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-LAB5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/snake.css">
+    <script defer src="js/lab5.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="list">
+                <li class="list-item"><a class="list-link" href="#">Лаба №1</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №2</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №3</a></li>
+                <li class="list-item"><a class="list-link" href="lab4.html">Лаба №4</a></li>
+                <li class="list-item"><a class="list-link" href="lab5.html">Лаба №5</a></li>
+                <li class="list-item"><a class="list-link" href="lab6.html">Лаба №6</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №7</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №8</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="task-box">
+                <label for="fillArea">Текстовое поле</label>
+                <input id="fillArea" type="text" class="input">
+                <button id="fillBtn" class="button">Заполнить</button>
+                <button id="alertBtn" class="button">Инфо о поле</button>
+                <button id="lockBtn" class="button">Заблокировать поле</button>
+                <button id="hideBtn" class="button">Скрыть содержимое</button>
+                <button id="hideFieldBtn" class="button">Скрыть поле</button>
+            </div>
+            <div class="task-box">
+                <div id="circleTouch" class="circle"></div>
+            </div>
+            <div class="task-box">
+                <div class="circle  cliсked"></div>
+                <div class="circle  cliсked"></div>
+                <div class="circle  cliсked"></div>
+            </div>
+            <div class="task-box">
+                <label for="search">Текстовое поле</label>
+                <input id="search" type="text" class="input">
+                <ul id="searchList"></ul>
+            </div>
+            <div id="draggable" draggable="true">Подвинь меня</div>
+            <div id="cursor-trail-container"></div>
+        </div>
+        <div class="game-place" id="game">
+            <div class="game-header">
+                <div class="game-score">
+                    <span class="score-count">1234</span>
+                </div>
+            </div>
+            <div class="canvas-wrapper">
+                <canvas id="game-canvas" width="320" height="400"></canvas>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

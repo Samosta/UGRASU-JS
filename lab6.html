@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-LAB6</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/lab6.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="list">
+                <li class="list-item"><a class="list-link" href="#">Лаба №1</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №2</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №3</a></li>
+                <li class="list-item"><a class="list-link" href="lab4.html">Лаба №4</a></li>
+                <li class="list-item"><a class="list-link" href="lab5.html">Лаба №5</a></li>
+                <li class="list-item"><a class="list-link" href="lab6.html">Лаба №6</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №7</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №8</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="calc-container">
+            <div class="calc-wrap">
+                <div class="display-box">
+                    <input type="text" id="display" readonly>
+                </div>
+                <div class="buttons-box">
+                    <div class="buttons-line">
+                        <button onclick="addDigit('1')">1</button>
+                        <button onclick="addDigit('2')">2</button>
+                        <button onclick="addDigit('3')">3</button>
+                        <button onclick="addOperator('+')">+</button>
+                    </div>
+                    <div class="buttons-line">
+                        <button onclick="addDigit('4')">4</button>
+                        <button onclick="addDigit('5')">5</button>
+                        <button onclick="addDigit('6')">6</button>
+                        <button onclick="addOperator('-')">-</button>
+                    </div>
+                    <div class="buttons-line">
+                        <button onclick="addDigit('7')">7</button>
+                        <button onclick="addDigit('8')">8</button>
+                        <button onclick="addDigit('9')">9</button>
+                        <button onclick="addOperator('*')">*</button>
+                    </div>
+                    <div class="buttons-line">
+                        <button onclick="clearDisplay()">C</button>
+                        <button onclick="addDigit('0')">0</button>
+                        <button onclick="calculateResult()">=</button>
+                        <button onclick="addOperator('/')">/</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
