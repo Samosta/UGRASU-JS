@@ -1,0 +1,64 @@
+@import url(reset.css);
+
+body {
+    background-image: url('../media/background.jpg');
+}
+
+.header {
+    box-shadow: -1px 13px 18px 0px rgba(80, 83, 80, 0.2);
+}
+
+.main-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+.game-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 320px;
+    height: 300px;
+}
+
+.game-text {
+    font-size: 32px;
+}
+
+.input {
+    padding: 10px 10px;
+    font-size: 24px;
+    height: 80px;
+    width: 320px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.input:disabled {
+    background-color: rgb(199, 190, 190);
+}
+
+.start-btn {
+    background-color: red;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 24px;
+    transition: all 0.25s;
+}
+
+.start-btn:hover {
+    background-color: darkred;
+}
+
+.start-btn:disabled {
+    background-color: gray;
+}
+
+#timer {
+    font-size: 24px;
+    color: red;
+}

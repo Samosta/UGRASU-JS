@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | LAB3</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <script defer src="js/lab3.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="list">
+                <li class="list-item"><a class="list-link" href="#">Лаба №1</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №2</a></li>
+                <li class="list-item"><a class="list-link" href="lab3.html">Лаба №3</a></li>
+                <li class="list-item"><a class="list-link" href="lab4.html">Лаба №4</a></li>
+                <li class="list-item"><a class="list-link" href="lab5.html">Лаба №5</a></li>
+                <li class="list-item"><a class="list-link" href="lab6.html">Лаба №6</a></li>
+                <li class="list-item"><a class="list-link" href="blindprinting.html">Лаба №7</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №8</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <hr>
+        <div class="box-task">
+            <h2>Задание 1</h2>
+            <p id="task1_answer"></p>
+            <button onclick="printTriange(10)" id="task1_button">Нарисовать</button>
+        </div>
+        <hr>
+        <div class="box-task">
+            <h2>Задание 2</h2>
+            <div id="task2_answer" class="table-multiplication"></div>
+            <button onclick="printMultiplicationTable(10)" id="task2_button">Создать таблицу</button>
+        </div>
+        <hr>
+        <div class="box-task">
+            <h2>Задание 3</h2>
+            <label for="user_numbers">Введите числа (через пробел):</label>
+            <input type="text" id="user_numbers">
+            <button onclick="checkParity()">Узнать чётность</button>
+        </div>
+        <hr>
+        <div class="box-task">
+            <h2>Задание 4</h2>
+            <label for="count_cars">Кол-во грузовиков:</label>
+            <input type="number" id="count_cars">
+            <button onclick="calculateDistance()">Узнать расстояние</button>
+            <p id="task4_answer">Растояние: Неизвестно</p>
+        </div>
+        <hr>
+        <div class="box-task"></div>
+            <h2>Задание 5</h2>
+            <label for="user_endnum">Конечная цифра:</label>
+            <input type="number" id="user_endnum">
+            <button onclick="calculateNumber(2)">Узнать кол-во двоек</button>
+            <p id="task5_answer">Кол-во двоек: Неизвестно</p>
+        </div>
+        <hr>
+        <div class="box-task"></div>
+            <h2>Задание 6</h2>
+            <label for="user_first_line">Первая строка:</label>
+            <input type="text" id="user_first_line"><br><br>
+            <label for="user_second_line">Вторая строка:</label>
+            <input type="text" id="user_second_line"><br><br>
+            <button onclick="checkPermutation()">Проверка перестановки</button>
+            <p id="task6_answer">Ответ: Неизвестно</p>
+        </div>
+        <hr>
+    </main>
+</body>
+</html>

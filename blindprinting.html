@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | LAB3 | BLINDPRINTING</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blindprinting.css">
+    <script defer src="js/blindprinting.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="list">
+                <li class="list-item"><a class="list-link" href="#">Лаба №1</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №2</a></li>
+                <li class="list-item"><a class="list-link" href="lab3.html">Лаба №3</a></li>
+                <li class="list-item"><a class="list-link" href="lab4.html">Лаба №4</a></li>
+                <li class="list-item"><a class="list-link" href="lab5.html">Лаба №5</a></li>
+                <li class="list-item"><a class="list-link" href="lab6.html">Лаба №6</a></li>
+                <li class="list-item"><a class="list-link" href="blindprinting.html">Лаба №7</a></li>
+                <li class="list-item"><a class="list-link" href="#">Лаба №8</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-wrap">
+            <div class="game-box">
+                <div id="time">НАЧНИТЕ ИГРУ!</div>
+                <div id="health">❤❤❤</div>
+                <div id="score">Счёт: 0</div>
+                <div class="text-box">
+                    <p class="game-text" id="game_text"></p>
+                </div>
+                <div class="input-box">
+                    <input disabled type="text" class="input" id="user_input">
+                </div>
+                <div>
+                    <button onclick="startGame()" class="start-btn" id="start_btn">Старт</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

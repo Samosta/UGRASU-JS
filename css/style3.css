@@ -1,0 +1,24 @@
+.main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.table-multiplication {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.multiplication-box {
+    margin-right: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin-right: 15px;
+    list-style-type: none;
+    text-decoration: none;
+}
